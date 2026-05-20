@@ -152,9 +152,9 @@ EFFECT_IDS = [effect for effect in environ.get('EFFECT_IDS', '510484124575518058
 
 # for Premium 
 IS_PREMIUM = is_enabled('IS_PREMIUM', True)
-OWNER_USERNAME = environ.get("OWNER_USERNAME", "Hansaka_Anuhas")
-PAYMENT_QR_CODE = "https://i.postimg.cc/4xmm21x5/qr-code.jpg" # add your payment qr code link, like upi qr code or any crypto qr code link
-PAYMENT_ID = "mypayment@id"  # add your payment id like upi id or crypto address
+OWNER_USERNAME = environ.get("OWNER_USERNAME", "RbyAdminBot")
+PAYMENT_QR_CODE = "https://i.ibb.co/NdnPgb3m/x.jpg" # add your payment qr code link, like upi qr code or any crypto qr code link
+PAYMENT_ID = "rbylinks@airtel"  # add your payment id like upi id or crypto address
 
 # Format -- Days: ['CURRENCY', Price]
 PREMIUM_PLANS = {
