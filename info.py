@@ -158,10 +158,10 @@ PAYMENT_ID = "mypayment@id"  # add your payment id like upi id or crypto address
 
 # Format -- Days: ['CURRENCY', Price]
 PREMIUM_PLANS = {
-    7: ['USD', 1], 
-    14: ['USD', 2],
-    30: ['USD', 3],
-    365: ['USD', 10]
+    1 Month: ['₹', 30]
+  #  14: ['USD', 2],
+ #   30: ['USD', 3],
+  #  365: ['USD', 10]
 }
 PAYMENT_TYPE = "UPI"  # can be changed to "Crypto (TRC20)" or "PayPal" or etc....
 
